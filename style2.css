@@ -1,0 +1,86 @@
+body{
+  background-color: black;
+}
+
+h4{
+  font-family: cursive;
+  color: white;
+  font-weight: bold;
+  margin-top: 40px;
+  margin-bottom: 200 px;
+
+}
+h6{
+  font-family: arial;
+  color: white;
+  font-weight: normal;
+
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.heart{
+  margin-left: 100px;
+}
+.rowbor {
+  background: black;
+  border: 1px solid #232323;
+}
+
+.search{
+  position: relative; 
+
+  left: -5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.home{
+  margin-top: 40px;
+  position: relative; 
+top: 5px;
+  left: -5px;
+}
+.catimgsexplore{
+  width:260px;
+  height: auto;
+}
+.first{
+   margin-left: 20px;
+}
+button{
+  height: 40px;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: auto;
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+ font-family: arial;
+  font-weight: bold;
+  color: white;
+  background-color: #3b3b3b;
+  border-radius: 10px;
+  border-color: #3b3b3b;
+  border-width: .2px;
+ 
+}
+.loadingimg{
+  width:20px;
+  height: auto;
+ margin-left: 400px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.reels{
+  margin-top: 4px;
+
+  position: relative; 
+  left: -12px;
+  height: 46px;
+}
+.margin{
+  width: 220px;
+  padding-top: 5px;
+  position: relative;
+  left: -7px;
+}

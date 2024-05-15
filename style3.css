@@ -1,0 +1,118 @@
+body {
+  background-color: black;
+}
+
+h4 {
+  font-family: cursive;
+  color: white;
+  font-weight: bold;
+  margin-top: 40px;
+  margin-bottom: 60px;
+}
+
+h6 {
+  font-family: arial;
+  color: white;
+  font-weight: normal;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+
+.rowbor {
+  background: black;
+  border: 1px solid #232323;
+}
+
+
+
+.pfp {
+  width: 40px; /* Adjust image size as needed */
+  height: 40px; /* Adjust image size as needed */
+  border-radius: 50%;
+}
+
+.pic {
+  width: 525px;
+  height: auto;
+}
+
+
+.search {
+  position: relative;
+  left: -5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.home {
+  position: relative;
+  top: 5px;
+  left: -5px;
+}
+
+
+.reels {
+  margin-top: 4px;
+  position: relative;
+  left: -8px;
+  height: 48px;
+}
+
+.margin {
+  width: 220px;
+  position: relative;
+  left: -7px;
+}
+
+.heart-container {
+  position: relative;
+}
+
+.likethird{
+  position: relative;
+  top: 99px;
+  left: 20px;
+  height:30px;
+  width:auto;
+}
+.likefourth{
+  position: relative;
+   left: 19px;
+  top: 102px;
+  height:35px;
+  width:auto;
+
+   animation: moveUpAndDown 1s ease;
+
+}
+@keyframes moveUpAndDown {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px); /* Move up by 20px */
+  }
+}
+
+.textpage3{
+  position: relative;
+ left: 50px;
+  top: 140px;
+  color: white;
+  text-size-adjust: 3px;
+}
+.textpage4{
+  position: relative;
+left: 58px;
+  top: 140px;
+  color: white;
+  text-size-adjust: 3px;
+}
+
+.comments{
+  position: relative;
+  top: 200px;
+  height:35px;
+  width:auto;
+}

@@ -1,0 +1,48 @@
+<html>
+<head>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
+  <link href="style2.css" rel="stylesheet" />
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <!-- Kittenstagram section -->
+      <div class="col-md-3 rowbor">
+        <h4>kittenstagram</h4> 
+        
+        <a href="index.html"><img src="home.png" height="55" class="home bttn"></a> 
+        <img src="search.png" height="50" class="search">
+        <a href="explore.html"><img src="exploreonclick.png" height="40" class="search"></a> 
+        <a href="reels.html"> <img src="reels.png" class="reels" > </a> 
+        <img src="margin.png"  class="margin">
+
+      </div>
+
+      
+      <!-- Button and cat images section -->
+      <div class="col-md-9">
+       
+         
+           
+            <button class="first" onclick="getCats('/sleepy')">sleepy cat</button>
+         <button onclick="getCats('/cute')">cute cat</button>
+        <button onclick="getCats('/orange')">orange cat</button>
+         <button onclick="getCats('/black')">black cat</button>
+         <button onclick="getCats('/angry')">angry cat</button>
+        <button onclick="getCats('/gif')"> cat gifs</button>
+       
+        
+         
+        <div id="cat-imgs"></div>
+        <div id="loading-gif" style="display: none;">
+            <img src="loading.gif" alt="Loading..." class="loadingimg"/>
+        </div>
+     
+
+      
+    </div>
+  </div>
+  <script src="script2.js"></script>
+</body>
+</html>
